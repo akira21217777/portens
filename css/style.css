@@ -1,0 +1,422 @@
+@import 'fonts.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 320px;
+    background: black;
+}
+
+:root{
+    --p-b: 'PostNoBillsJaffna-Bold';
+}
+
+h1,h2,h3,h4,h5,h6,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* header */
+
+.header-top{
+    background: #000;
+}
+
+.header-top .iten-number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.header-top .iten-number .phone{
+    color: #969696;
+    font-size: 12px;
+}
+
+.header-top .iten-number ul{
+    display: flex;
+    
+}
+
+.header-top .iten-number ul a{
+    color: #969696;
+    font-size: 12px;
+}
+
+.header-top .iten-number ul a:hover{
+    color: #fff;
+}
+
+header .menu{
+    background: #0F0F0F;
+}
+
+header .navbar-brand{
+    font-size: 36px;
+    color: #fff !important;
+    font-family: var(--p-b);
+}
+
+header .header-nav-link{
+    font-size: 14px;
+    color: #969696;
+    text-transform: uppercase;
+    padding: 30px 20px;
+    transition: 0.5s;
+}
+
+header .header-nav-link:hover{
+    color: #fff;
+    background: #1F1F1F; 
+}
+
+header .navbar-toggler i{
+    font-size: 35px;
+    color: #fff;
+}
+
+header .header-content{
+    background: url(../img/fon-header.jpg) no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header .header-content .text{
+    border: 4px solid #FFFFFF;
+    max-width: 320px;
+    width: 100%;
+    padding-top: 93px;
+    padding-bottom: 94px;
+}
+
+header .header-content .text h1{
+    font-size: 64px;
+    color: #fff;
+    font-family: var(--p-b);
+    border-bottom: 2px solid #fff;
+    width: 183px;
+    margin: auto;
+}
+
+header .header-content .text h4{
+    font-size: 21px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 7px;
+}
+
+header .header-content p{
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    max-width: 730px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 80px;
+}
+
+/* header end */
+/* ************************************************* */
+/* lois start */
+
+.lois .lois-right img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lois .lois-right {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.lois .lois-right .lois-text{
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.lois .lois-right .lois-text h3{
+    font-size: 36px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.lois .lois-right .lois-text h3::after{
+    content: '';
+    display: flex;
+    width: 120px;
+    height: 1px;
+    background: #fff;
+    margin: 30px auto 30px auto;
+}
+
+.lois .lois-right .lois-text a{
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 150px;
+    border: 1px solid #FFFFFF;
+    height: 50px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.lois .lois-right .lois-text a:hover{
+    color: black;
+    background: #969696;
+}
+
+.lois h3{
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+}
+
+.lois img{
+    width: 100%;
+}
+
+.lois h4{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.lois p{
+    color:  #D0D0D0;
+    font-size: 16px;
+}
+
+.lois .lois-left{
+    padding-top: 93px;
+    padding-bottom: 93px;
+}
+
+.lois  .lois-left img{
+    margin-top: 50px;
+}
+
+
+.lois  .section-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lois .section-text h3{
+    font-size: 36px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.lois .section-text h3::after{
+    content: '';
+    width: 120px;
+    background: #fff;
+    height: 1px;
+    display: flex;
+    margin: 40px auto 40px auto;
+}
+
+.lois  .section-text p{
+    width: 100%;
+    max-width: 471px;
+    font-size: 14px;
+}
+
+.lois .section-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.lois .section-text a{
+    max-width: 255px;
+    width: 100%;
+    font-size: 18px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 70px;
+    transition: 0.5s;
+}
+
+.lois .section-text a:hover{
+    background: #fff;
+    color: black;
+}
+
+/* lois end */
+/* ***************************** */
+/* new start */
+
+.new{
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+
+.new h3{
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.new h3::after{
+    content: '';
+    display: flex;
+    width: 120px;
+    height: 1px;
+    background: #fff;
+    margin: 40px auto 81px auto;
+}
+
+.new img{
+    width: 100%;
+}
+
+.new h4{
+    font-size: 18px;
+    margin-top: 25px;
+    color: #fff;
+}
+
+.new p{
+    color: #D0D0D0;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+/* new end */
+/************************************/
+/* brend star */
+
+.brend h4{
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.brend h4::after{
+    content: '';
+    width: 120px;
+    height: 2px;
+    background: #fff;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.brend{
+    padding-bottom: 80px;
+}
+
+/* brend end */
+/* *********************************** */
+/* rewer start */
+
+.rewer{
+    background: url(../img/Rectangle\ 15.png) no-repeat center/cover;
+    padding-top: 80px;
+    padding-bottom: 99px;
+   flex-wrap: wrap;
+}
+
+.rewer h3{
+    color: white;
+    font-size: 24px;
+    padding-top: 80px;
+}
+
+.rewer p{
+    color: white;
+    width: 342px;
+    font-size: 14px;
+    padding-top: 40px;
+}
+
+.rewer .rewer-box a{
+    color: white;
+    font-size: 14px;
+    background: #0F0F0F;
+    padding: 10px 20px 10px 20px;
+    margin-top: 30px;
+}
+
+.rewer-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.rewer .rewer-box a:hover{
+    background: rgba(122, 118, 118, 0.74);
+}
+
+.fice a:hover{
+  background: #FFFFFF66;  
+  padding: 10px 20px 10px 20px;
+}
+
+.fice a{
+    color: white;
+    background: #0F0F0F;
+     margin-top: 37px;
+     font-size: 14px;
+}
+
+
+.rewers p{
+    color: white;
+    width: 374px;
+    font-size: 14px;
+    padding-top: 40px;
+    margin-bottom: 37px;
+}
+
+
+footer a{
+  color: white;
+ border-bottom: 1px solid white;
+ font-size: 12px;
+}
+
+footer p{
+    color: white;
+    font-size: 12px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-around;
+}
